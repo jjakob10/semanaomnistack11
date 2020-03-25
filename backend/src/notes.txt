@@ -1,0 +1,35 @@
+/**Antes das requisições, indica que o express deve transformar o JSON em um obj java script*/
+app.use(express.json());
+
+/**
+*Rota: localhost:3333/ola
+*Recurso: ola
+*/
+
+/**
+*Métodos HTTP:
+*GET: Busca/listar uma informação do back-end
+*POST: Cria uma informação no back-end
+*PUT: Alterar uma informação no back-end
+*DELETE: Deletar uma informação no back-end
+Os métodos tem um carater semântico, 
+muitas veses podem ser usados para outras funções sem muitos 
+O método usado pelo navegador é o get
+*/
+/**
+ * Tipos de Parâmetros
+ * 
+ * Query Params: Parâmetros nomeados enviados na rota após "?" e separados com "&" (Filtros, paginação)
+ * Route Params: Parâmetros usados para identificar recursos  /1 -> :id  
+ * Request Body: JSON guardado em request, é o corpo da requisição, usado para criar ou alterar recursos
+ */
+
+ /**
+  * SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+  * NoSQL: MongoDB, CouchDB etc
+  */
+
+  /**
+   * Driver: SELECT * FROM users
+   * Query Builder: table('users').select('*').where()
+   */
